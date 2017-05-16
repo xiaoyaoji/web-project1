@@ -1,0 +1,41 @@
+
+.btn-default {
+    color: #333;
+    background-color: #32383e;
+    border-color: #272b30;
+    color: #f2ffe3;
+    border-radius: 0;
+    padding: 12px 36px;
+}
+.page-header{
+	margin-top: 0;
+}
+.page-header h1{
+	margin: 0;
+	font-size: 16px;
+}
+.dropdown button{
+	border: 1px #E0E0E0 solid;
+}
+form{
+	padding: 10px;
+	border: 1px #DDDDDD solid;
+	border-top: none;
+}
+#tag input{
+	margin-top: 20px;
+}
+#tj{
+	margin-top: 20px;
+	border: 1px #E2E2E2 solid;
+	background-color: #ffffff;
+}
+#tj:hover{
+	background-color: #E0E0E0;
+}
+.taglist{
+	padding-top: 20px;
+}
+.taglist .alert{
+	margin: 0 15px 15px 0;
+}

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>标签管理</title>
+    <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/user.css"/>
+</head>
+	<body id="black">
+	<!--导航start-->
+	<nav class="navbar navbar-default" id="nav">
+		<div class="container">
+			<!--小屏幕导航按钮+logo-->
+			<div class="navbar-header">
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>	
+			</button>
+			<a href="#" class="navbar-brand">Maizi Admin</a>
+			</div>
+			<!--小屏幕导航按钮+logo-->
+			<!--导航-->
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="firstindex.html"><span class="glyphicon glyphicon-home"></span>&nbsp;后台首页</a></li>
+					<li><span></span><a href="user.html"><span class="glyphicon glyphicon-user"></span>&nbsp;用户管理</a></li>
+					<li><span></span><a href="mainpage.html"><span class="glyphicon glyphicon-list-alt"></span>&nbsp;内容管理</a></li>
+					<li class="active"><span></span><a href="tag.html"><span class="glyphicon glyphicon-tag"></span>&nbsp;标签管理</a></li>				
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+					  <a id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					    admin
+					    <span class="caret"></span>
+					  </a>
+					  <ul class="dropdown-menu" aria-labelledby="dLabel">
+					    <li><a href="index.html"><span class="glyphicon glyphicon-screenshot"></span>&nbsp;前台首页</a></li>
+					    <li><a href="mainpage.html"><span class="glyphicon glyphicon-user"></span>&nbsp;个人主页</a></li>
+					    <li><a href="set.html"><span class="glyphicon glyphicon-cog"></span>&nbsp;个人设置</a></li>
+					    <li><a href="centre.html"><span class="glyphicon glyphicon-credit-card"></span>&nbsp;账户中心</a></li>
+					    <li><a href="collect.html"><span class="glyphicon glyphicon-heart"></span>&nbsp;我的收藏</a></li>
+					  </ul>
+					</li>
+					<li><a href="#"><span class="glyphicon glyphicon-off"></span>&nbsp;退出</a></li>
+				</ul>
+			</div>
+			<!--导航-->
+			
+		</div>
+	</nav>
+	<!--导航end-->
+	<section class="container">
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<div class="page-header">
+				<h1>管理标签</h1>
+			</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-10 col-lg-10">
+				<div action="#" >
+					<div class="form-group" id="tag">
+					<input type="text" class="form-control" placeholder="输入文章标题"/>
+					</div>
+				</div>
+			</div>
+			<div class="col-xs-12 col-sm-12 col-md-2 col-lg-2">
+				<button type="button" class="btn" id="tj">添加</button>
+			</div>
+		</div>		
+		<div class="row">
+			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 taglist">
+			<div class="alert alert-info alert-dismissible pull-left" role="alert">
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  <strong>bootstrap</strong>
+			</div>
+			<div class="alert alert-info alert-dismissible pull-left" role="alert">
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  <strong>麦子学院</strong>
+			</div>
+			<div class="alert alert-info alert-dismissible pull-left" role="alert">
+			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+			  <strong>前端课程</strong>
+			</div>
+			</div>
+		</div>
+	</section>
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+	</body>
+</html>

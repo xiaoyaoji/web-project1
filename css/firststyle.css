@@ -1,0 +1,159 @@
+body{
+	font-family:"微软雅黑";
+}
+.navbar-default{
+	background-color: #FFFFFF;
+	border: none;
+	box-shadow: 0 2px 8px 0 rgba(50,50,50,0.25);
+}
+.navbar-default .navbar-brand{
+    font-size: 30px;
+    font-weight: bold;
+    color: turquoise;
+    height: 70px;
+    line-height: 35px;
+}
+.navbar-default .navbar-nav > li > a{
+	font-size: 16px;
+	font-weight: bold;
+	color: #666;
+	height: 70px;
+	line-height: 35px;
+}
+.navbar-default .navbar-toggle:hover{
+	background-color: turquoise;
+	border-color: turquoise;
+}
+.navbar-toggle .icon-bar{
+	background-color: darkturquoise!important;
+}
+.navbar-toggle {
+    position: relative;
+    float: right;
+    padding: 9px 10px;
+    margin-top: 17px;
+    margin-right: 15px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+#home{
+	margin-top: 71px;
+	background-image: url(../img/home-bg.jpg);
+	background-size: cover;
+	color: #FFFFFF;
+}
+.zhezhao{
+	background-color: rgba(0,0,0,.7);
+	padding: 95px 0;
+}
+.zhezhao p{
+	line-height: 40px;
+}
+.zhezhao img{
+	display: inline;
+}
+#BBS{
+	padding: 85px 0;
+}
+#web{
+	padding: 80px 0;
+	background-color: #f8f8f8;
+}
+#web p{
+	line-height: 30px;
+}
+#web ul li{
+	line-height: 40px;
+}
+#vid{
+	padding: 80px 0;
+}
+#NCL{
+	padding: 60px 0;
+	background-color: #f8f8f8;
+}
+#NCL .row{
+	margin-top: 70px;
+}
+#NCL button{
+	margin-top: 18px;
+	padding: 5px 15px;
+	border: 1px #40d2b1 solid;
+	margin-bottom: 32px;
+}
+#NCL button a{
+	color: #40d2b1!important;
+}
+#app{
+	padding: 85px 0!important;
+}
+#app p{
+	line-height: 40px;
+}
+#app button{
+	background-color: turquoise;
+	border: 1px turquoise solid;
+	padding: 10px 20px;
+	margin-right: 10px;
+	border-radius: 5px;
+	color: #FFFFFF;
+}
+#footer{
+	
+	background-image: url(../img/contact-bg.png);
+	background-size: cover;
+}
+#zhe{
+	padding: 92px 0;
+	background-color: black;
+	opacity: 0.7;
+	color: #FFFFFF!important;
+}
+#zhe p{
+	color: #FFFFFF!important;
+}
+#footer .list-unstyled li{
+	line-height: 40px;
+}
+#footer .list-unstyled li span{
+	margin-right: 10px;
+}
+#footer .list-unstyled li a{
+	color: #FFFFFF;
+}
+.row input{
+	border: none;
+	background-color: #FFFFFF;
+	color: #000000;
+	text-indent: 1em;
+	width: 100%;
+	margin-top: 16px;
+	padding: 16px 0;
+}
+.row textarea{
+	margin-top: 20px;
+}
+.mying img{
+	width: 100%;
+}
+.mying div button:hover{
+	background-color: turquoise;
+	color: #FFFFFF;
+}
+.mying .row div{
+	background-color: #FFFFFF;
+}
+#footer button{
+	margin-top: 16px;
+	margin-left: 16px;
+	color: #FFFFFF;
+	background-color: #3fd1b0;
+	border: 1px #3fd1b0 solid;
+}
+#footer p{
+	line-height: 35px;
+	color: #333333;
+}
